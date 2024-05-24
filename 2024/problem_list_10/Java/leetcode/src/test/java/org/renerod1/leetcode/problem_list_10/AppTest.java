@@ -1,4 +1,4 @@
-package org.renerod1.leetcode.problem_list_23may2024;
+package org.renerod1.leetcode.problem_list_10;
 
 import static org.junit.Assert.assertEquals;
 
