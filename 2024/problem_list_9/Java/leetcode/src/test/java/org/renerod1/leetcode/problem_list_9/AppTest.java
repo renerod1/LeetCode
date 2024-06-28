@@ -6,20 +6,20 @@ import org.junit.Test;
 
 public class AppTest {
 
-    App s = new App();
+    App app = new App();
 
     @Test
     public void case1() {
-        assertEquals(true, s.isPalindrome(121));
+        assertEquals(true, app.isPalindrome(121));
     }
 
     @Test
     public void case2() {
-        assertEquals(false, s.isPalindrome(-121));
+        assertEquals(false, app.isPalindrome(-121));
     }
 
     @Test
     public void case3() {
-        assertEquals(false, s.isPalindrome(10));
+        assertEquals(false, app.isPalindrome(10));
     }
 }

@@ -6,25 +6,25 @@ import org.junit.Test;
 
 public class AppTest {
 
-    App s = new App();
+    App app = new App();
 
     @Test
     public void case1() {
-        assertEquals(false, s.isMatch("aa", "a"));
+        assertEquals(false, app.isMatch("aa", "a"));
     }
 
     @Test
     public void case2() {
-        assertEquals(true, s.isMatch("aa", "a*"));
+        assertEquals(true, app.isMatch("aa", "a*"));
     }
 
     @Test
     public void case3() {
-        assertEquals(true, s.isMatch("ab", ".*"));
+        assertEquals(true, app.isMatch("ab", ".*"));
     }
 
     @Test
     public void case4() {
-        assertEquals(true, s.isMatch("abc", "a***abc"));
+        assertEquals(true, app.isMatch("abc", "a***abc"));
     }
 }

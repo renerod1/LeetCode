@@ -2,10 +2,10 @@ package org.renerod1.leetcode.problem_list_10
 
 class App {
     fun main() {
-        println(isMatch("aa", "a"))
-        println(isMatch("aa", "a*"))
-        println(isMatch("ab", ".*"))
-        println(isMatch("abc", "a***abc"))
+        isMatch("aa", "a")
+        isMatch("aa", "a*")
+        isMatch("ab", ".*")
+        isMatch("abc", "a***abc")
     }
 
     fun isMatch(s: String, p: String): Boolean {
