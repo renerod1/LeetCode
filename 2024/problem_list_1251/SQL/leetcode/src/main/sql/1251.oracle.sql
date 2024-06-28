@@ -1,0 +1,8 @@
+/* Write your PL/SQL query statement below */
+WITH d AS (
+    SELECT a.product_id, ROUND(SUM(a.price * b.units) / SUM(b.units), 2) AS average_price
+    FROM Prices a LEFT JOIN UnitsSold b ON a.product_id = b.product_id
+    WHERE b.purchase_date BETWEEN a.start_date AND a.end_date
+    GROUP BY a.product_id ) 
+SELECT DISTINCT c.product_id, COALESCE(d.average_price, 0) AS average_price
+FROM Prices c LEFT JOIN d ON c.product_id = d.product_id;
