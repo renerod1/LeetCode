@@ -2,10 +2,10 @@ package org.renerod1.leetcode.problem_list_1;
 
 class App {
     public static void main(String[] args) {
-        App s = new App();
-        s.twoSum(new int[] {2,7,11,15}, 9);
-        s.twoSum(new int[] {3,2,4}, 6);
-        s.twoSum(new int[] {3,3}, 6);
+        App app = new App();
+        app.twoSum(new int[] {2,7,11,15}, 9);
+        app.twoSum(new int[] {3,2,4}, 6);
+        app.twoSum(new int[] {3,3}, 6);
     }
 
     public int[] twoSum(int[] nums, int target) {
