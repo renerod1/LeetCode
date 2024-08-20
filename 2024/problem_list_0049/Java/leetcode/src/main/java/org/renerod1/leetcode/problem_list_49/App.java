@@ -25,7 +25,6 @@ class App {
         for (i = 0; i < strs.length; i++) {
             char tempChars[] = strs[i].toCharArray();
             Arrays.sort(tempChars);
-            System.out.println(tempChars);
             String sortedChars = new String(tempChars);
 
             if (!list.containsKey(sortedChars)) {
