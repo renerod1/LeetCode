@@ -1,6 +1,6 @@
 package org.renerod1.leetcode.problem_list_10
 
-import org.assertj.core.api.Assertions.assertThat
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 
@@ -15,21 +15,21 @@ class AppTest {
 
     @Test
     fun case1() {
-        assertThat(app.isMatch("aa", "a")).isEqualTo(false)
+        assertEquals(false, app.isMatch("aa", "a"))
     }
 
     @Test
     fun case2() {
-        assertThat(app.isMatch("aa", "a*")).isEqualTo(true)
+        assertEquals(true, app.isMatch("aa", "a*"))
     }
 
     @Test
     fun case3() {
-        assertThat(app.isMatch("ab", ".*")).isEqualTo(true)
+        assertEquals(true, app.isMatch("ab", ".*"))
     }
 
     @Test
     fun case4() {
-        assertThat(app.isMatch("abc", "a***abc")).isEqualTo(true)
+        assertEquals(true, app.isMatch("abc", "a***abc"))
     }
 }
