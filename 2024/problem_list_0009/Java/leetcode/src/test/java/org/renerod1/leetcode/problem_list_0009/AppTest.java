@@ -1,4 +1,4 @@
-package org.renerod1.leetcode.problem_list_9;
+package org.renerod1.leetcode.problem_list_0009;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

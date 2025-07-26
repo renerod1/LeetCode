@@ -1,4 +1,4 @@
-package org.renerod1.leetcode.problem_list_1;
+package org.renerod1.leetcode.problem_list_0001;
 
 class App {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.renerod1.leetcode.problem_list_10
+package org.renerod1.leetcode.problem_list_0010
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
